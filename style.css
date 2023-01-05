@@ -38,14 +38,14 @@ div .col-md-4 {
     max-width: 100%;
     display: block;
     position: relative;
-    z-index: 2;
+    z-index: 10;
     text-align: right;
     background: #8B6C60;
     }
 
 ul.dropdown-menu.show {
     position: relative;
-    z-index: 4 !important;
+    z-index: 10 !important;
     margin: 0;
     text-align: right;
     border-color: #8B6C60;
@@ -143,4 +143,7 @@ ul.dropdown-menu.show a:hover {
     text-decoration: none;
   }
 
-  
+  /*shop page*/
+  .nav-tabs .nav-link {
+    z-index: 0;
+}
