@@ -77,7 +77,11 @@ ul.dropdown-menu.show a:hover {
         background-size: cover; 
         object-fit: cover;
     }
-   
+
+    #google_map{
+      width: 450px;
+      
+    }
 
 }
 
@@ -134,6 +138,9 @@ ul.dropdown-menu.show a:hover {
     overflow: auto;
   }
 
-  [href]{
+  [href] {
     color: black;
-    text-decoration: none
+    text-decoration: none;
+  }
+
+  
