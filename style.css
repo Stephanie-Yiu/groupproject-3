@@ -3,6 +3,12 @@
   margin: 0;
 }
 
+h4.display-4 {
+  font-size: calc(0.5rem + 2.7vw);
+  font-weight: 600;
+  line-height: 1.2;
+}
+
 img {
   margin: 10px;
 }
@@ -146,4 +152,10 @@ div .col-md-4 {
   width: 30rem;
   height: 30rem;
   object-fit: cover !important;
+}
+
+.display-4 {
+  font-size: calc(1.475rem + 2.7vw);
+  font-weight: 600;
+  line-height: 1.2;
 }
