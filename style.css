@@ -22,8 +22,8 @@ div .col-md-4 {
 
 .dropdown-menu > li > a:hover {
   background-image: none;
-  background-color: #8b6c60;
-  color: black;
+  background-color: #e1ad11;
+  color: rgba(0, 0, 0, 0.588);
 }
 .carousel-inner img {
   object-fit: cover;
@@ -45,7 +45,7 @@ div .col-md-4 {
     position: relative;
     z-index: 10;
     text-align: right;
-    background: #8b6c60;
+    background: #e1ad11;
   }
 
   ul.dropdown-menu.show {
@@ -53,7 +53,7 @@ div .col-md-4 {
     z-index: 10 !important;
     margin: 0;
     text-align: right;
-    border-color: #8b6c60;
+    border-color: #e1ad11;
     border-radius: 0px;
   }
 
@@ -63,7 +63,7 @@ div .col-md-4 {
     font-weight: bold;
   }
   ul.dropdown-menu.show a:hover {
-    background-color: #8b6c60;
+    background-color: #e1ad11;
   }
   .navbar-nav .nav-link.active {
     padding: 10px;
